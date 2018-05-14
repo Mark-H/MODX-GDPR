@@ -1,5 +1,5 @@
 # MODX-GDPR
-Crowdsourced ideas/tools/checklists/resources for complying with the GDPR on MODX-powered sites/apps,
+Crowdsourced ideas/tools/checklists/resources for complying with the GDPR on MODX-powered sites/apps.
 
 ## General
 
@@ -7,7 +7,7 @@ Crowdsourced ideas/tools/checklists/resources for complying with the GDPR on MOD
 
 ## Cookies
 
-- The `PHPSESSID` cookie in MODX is a functional cookie used for managing sessions. It can be renamed with the `session_cookie_name` system setting. You do not require specific consent for functional cookies, but if you perform additional tracking or personalisation in the related session, you will need to communicate that clearly to customers. 
+- The `PHPSESSID` cookie in MODX is a functional cookie used for managing sessions. It can be renamed with the `session_cookie_name` system setting. You do not require specific consent for functional cookies, but if you perform additional tracking or personalisation in the related session, you will need to communicate that clearly to customers. If you do not use any session-related functionality (i.e. no signin, personalisation, and you don't have resource group protected resources), then you can also disable sessions completely or only disable anonymous sessions on your web context. 
 
 ## Common Extras
 
